@@ -1,7 +1,7 @@
 const express = require('express');
 //router allows us to attach routes to a router which can then be attached to our app
 const router = express.Router();
-
+const Fruit = require('../models/fruit.js')
 // I.N.D.U.C.E.S. - Index, New, Delete, Update, Create, Edit, Show
 
 //index - get /fruit - show all fruits

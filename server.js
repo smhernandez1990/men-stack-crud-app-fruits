@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const morgan = require('morgan');
-const Fruit = require('./models/fruit');
+
 require('dotenv').config();
 const methodOverride = require('method-override');
 const fruitsController = require('./controllers/fruits.controller.js');
